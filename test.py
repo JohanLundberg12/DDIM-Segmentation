@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # -*- encoding: utf-8 -*-
 
-from logger import setup_logger
 from model import BiSeNet
 
 import torch
@@ -85,6 +84,6 @@ def evaluate(respth='./res/test_res', dspth='./data', cp='model_final_diss.pth')
 
 
 if __name__ == "__main__":
-    evaluate(dspth='/home/zll/data/CelebAMask-HQ/test-img', cp='79999_iter.pth')
+    evaluate(dspth='/mnt/c/Users/johan/itu/master/segmentation-ddim/CelebAMask-HQ/test-img', cp='79999_iter.pth')
 
 
